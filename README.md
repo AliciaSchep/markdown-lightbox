@@ -7,7 +7,7 @@ Wraps all images in a [lightbox](http://lokeshdhakar.com/projects/lightbox2/) li
 
 Can either group all images into same lightbox if config option group = True (the default), or make each image have a separate lightbox if config option group = False.
 
-Grouping of images into lightboxes can also be done manually be specifying @{lightbox-name} right after the opening "[" bracket of the image, e.g. "![@{my-lightbox-name}Here is my description](image.jpg)" (or after "[!" if hiding the image... see below)
+Grouping of images into lightboxes can also be done manually be specifying @{lightbox-name} right after the opening "[" bracket of the image, e.g. ```![@{my-lightbox-name}Here is my description](image.jpg)``` (or after "[!" if hiding the image... see below)
 
 Hidden images (that appear in lightbox gallery but not in the main page) can be added by adding a "!" right after the opening "[" bracket of the image.  If adding a lightbox name using "@{name}" then the "!" goes before the "@".
 
