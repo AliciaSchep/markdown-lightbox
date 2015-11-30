@@ -5,7 +5,7 @@ An extension for python markdown.
 Wraps all images in a [lightbox](http://lokeshdhakar.com/projects/lightbox2/) link.  [lightbox](http://lokeshdhakar.com/projects/lightbox2/) was created by Lokesh Dhakar and provided under the MIT License (see LICENSE in lightbox directory). **Lightbox CSS and JS must be included in final html-- this extension will not add those!** Copies of the lightbox CSS and JS files are included in this repository in the lightbox folder; alternatively these can be accessed at the [lightbox github repo](https://github.com/lokesh/lightbox2)
 
 
-Can either group all images into same lightbox if config option group = True (the default), or make each image have a separate lightbox if config option group = False.
+The extension can either group all images into same lightbox if config option group = True (the default), or make each image have a separate lightbox if config option group = False.
 
 Grouping of images into lightboxes can also be done manually be specifying @{lightbox-name} right after the opening "[" bracket of the image, e.g. ```![@{my-lightbox-name}Here is my description](image.jpg)``` (or after "[!" if hiding the image... see below)
 
