@@ -72,6 +72,5 @@ class LightboxImagesExtension(Extension):
         md.treeprocessors.add("lightbox", lightbox_images, "_end")
         md.registerExtension(self)
 
-
-
-
+def makeExtension(*args, **kwargs):
+    return LightboxImagesExtension(**kwargs)
