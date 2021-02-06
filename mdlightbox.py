@@ -74,4 +74,5 @@ class LightboxImagesExtension(Extension):
 
 
 
-
+def makeExtension(*args, **kwargs):
+    return LightboxImagesExtension(**kwargs)
