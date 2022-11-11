@@ -10,7 +10,7 @@ setup(
     description='Markdown extension which turns images into lightbox',
     url='https://github.com/AliciaSchep/markdown-lightbox',
     py_modules=['mdlightbox'],
-    install_requires=['Markdown>=2.0'],
+    install_requires=['Markdown>=3.0'],
     classifiers=[
         'Topic :: Text Processing :: Markup :: HTML'
     ]

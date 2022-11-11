@@ -70,9 +70,10 @@ class LightboxImagesExtension(Extension):
     def __init__(self, **kwargs):
         self.config = {'group' : [True,"group all images into same lightbox"] }
         super(LightboxImagesExtension, self).__init__(**kwargs)
-    def extendMarkdown(self, md, md_globals):
-        lightbox_images = LightboxImagesTreeprocessor(md, self.getConfig('group'))
-        md.treeprocessors.add("lightbox", lightbox_images, "_end")
+    def extendMarkdown(self, md):
+        lightbox_images = LightboxImagesTreeprocessor(
+            md, self.getConfig('group'))
+        md.treeprocessors.register(lightbox_images, "lightbox", 20)
         md.registerExtension(self)
 
 
