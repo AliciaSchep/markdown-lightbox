@@ -1,7 +1,6 @@
 #! /usr/bin/env python
-
-
 from setuptools import setup
+
 setup(
     name='markdown-lightbox',
     version='0.0.0',
@@ -15,7 +14,3 @@ setup(
         'Topic :: Text Processing :: Markup :: HTML'
     ]
 )
-
-
-
-
