@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='markdown-lightbox',
-    version='0.0.0',
+    version='1.0.0',
     author='Alicia Schep',
     author_email='aschep@gmail.com',
     description='Markdown extension which turns images into lightbox',
